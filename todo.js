@@ -153,7 +153,7 @@
       saveList(listArray, listName);
 
       todoList.append(todoItem.item);
-      todoItemForm.disabled = true;
+      todoItemForm.button.disabled = true;
       todoItemForm.input.value = "";
     });
   }
