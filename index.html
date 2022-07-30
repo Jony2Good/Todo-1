@@ -13,7 +13,11 @@
     <script defer src="todo.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        createTodoApp(document.getElementById("todo-app"), "Мои дела", "my");
+        createTodoApp(
+          document.getElementById("todo-app"),
+          "Мои текущие дела",
+          "my"
+        );
       });
     </script>
     <title>TODO</title>
@@ -21,9 +25,13 @@
   <body>
     <div class="container mb-5">
       <nav class="nav">
-        <a href="index.html" class="nav-link nav-link--first">Мои дела</a>
-        <a href="dad.html" class="nav-link nav-link--second">Дела отца</a>
-        <a href="mom.html" class="nav-link nav-link--third">Дела матери</a>
+        <a href="index.html" class="nav-link nav-link--first"
+          >Мои текущие дела</a
+        >
+        <a href="vacation.html" class="nav-link nav-link--second"
+          >Планирование поездки</a
+        >
+        <a href="market.html" class="nav-link nav-link--third">Покупки</a>
       </nav>
     </div>
 
@@ -34,6 +42,6 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
   </body>
 </html>
