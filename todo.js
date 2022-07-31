@@ -67,6 +67,8 @@
     deleteButton.classList.add("btn", "btn-danger");
     deleteButton.textContent = "Удалить";
 
+    item.id = obj.id;
+
     if (obj.done == true) item.classList.add("list-group-item-success");
 
     doneButton.addEventListener("click", function () {
