@@ -137,7 +137,7 @@
     todoItemForm.form.addEventListener("submit", function (e) {
       e.preventDefault();
 
-      if (!todoItemForm.input.value) {
+      if (todoItemForm.input.value == "" || todoItemForm.input.value.trim() == '') {
         return;
       }
 
